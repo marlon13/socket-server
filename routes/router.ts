@@ -13,8 +13,7 @@ router.get('/mensajes', ( req: Request, res: Response) => {
 router.post('/mensajes', ( req: Request, res: Response) => {
 
     const cuerpo = req.body.cuerpo;
-    const de = req.body.de;
-
+    const de     = req.body.de;
 
     res.json({
         ok: true,
@@ -26,8 +25,8 @@ router.post('/mensajes', ( req: Request, res: Response) => {
 router.post('/mensajes/:id', ( req: Request, res: Response) => {
 
     const cuerpo = req.body.cuerpo;
-    const de = req.body.de;
-    const id = req.params.id;
+    const de     = req.body.de;
+    const id     = req.params.id;
 
     res.json({
         ok: true,

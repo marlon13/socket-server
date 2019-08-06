@@ -15,3 +15,7 @@ Levantar servidor ( cualquiera de los dos comandos)
 nodemon dist/
 node dist/
 
+
+
+//crear el proyecto larabel
+ng new basico
